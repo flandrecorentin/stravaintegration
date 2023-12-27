@@ -9,7 +9,7 @@ cd ./frontendstravaintegration
 sudo ng build
 
 # copy dist/ into nginx 
-sudo cp -r /dist/frontend-stravaintegration/* /var/www/stravaintegration/
+sudo cp -r ./dist/frontend-stravaintegration/* /var/www/stravaintegration/
 
 # restart nginx
 sudo service nginx restart
